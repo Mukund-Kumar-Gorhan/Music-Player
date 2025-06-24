@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muku Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <header>
+    <a href="#" class="custom-logo"><img src="image copy.png" alt="Muku Music Logo"></a>
+    <h2>Welcome to <span>Muku Music</span></h2>
+    <a href="#"><i class="fa-solid fa-music"></i></a>
+</header>
+    <main>
+        <div class="left">
+            <div class="song-image">
+                <img src="musicanim.gif" alt="M" id="musicanim">
+            </div>
+            <div class="volume-div">
+                <div class="volume-img" id="volume-icon" onclick="toggleMute()">
+    <i class="fa-solid fa-volume-high"></i>
+</div>
+
+                <input type="range" id="volume-range">
+            </div>
+        </div>
+        <div class="right">
+            <div class="details">
+                <h3 id="song-name">Ve-Kamleya</h3>
+                <h5 id="song-singer">arijit</h5>
+            </div>
+            <input type="range" id="song-duration">
+            <div class="control">
+                <div class="prev-img">
+                <i class="fa-solid fa-backward-step" onclick="previousSong()"></i>
+            </div>
+            <div class="play-img">
+                <i class="fa-solid fa-play" onclick="playPause()"></i>
+            </div>
+                <div class="next-img">
+                    <i class="fa-solid fa-forward-step" onclick="nextSong()"></i>
+                </div>
+            </div>
+        </div>
+        <div class="playlist-container">
+    <h3>Playlist</h3>
+    <div class="playlist">
+    </div>
+</div>
+    </main>
+    <footer>
+  <p>Copyright © 2025 by Mukund | All Right Reserved.</p>
+  <button onclick="scrollToTop()" id="scroll-btn">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+</footer>
+
+</body>
+<script src="script.js"></script>
+</html>
