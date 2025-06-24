@@ -188,7 +188,7 @@ let songs = [
     //     path: "31.mp3",
     //     image: "images/image31.jpg",
     //     singer: "Khesari lal"
-    // }
+    }
 ];
 
 
