@@ -64,64 +64,64 @@ let songs = [
         image: "images/image10.jpg",
         singer: "Shivani singh"
     },
-    // {
-    //     name: "Nirdaiya marad",
-    //     path: "11.mp3",
-    //     image: "images/image11.jpg",
-    //     singer: "Shilpi raj"
-    // },
-    // {
-    //     name: "Lut gaye",
-    //     path: "12.mp3",
-    //     image: "images/image12.jpg",
-    //     singer: "Jubin noutalya"
-    // },
-    // {
-    //     name: "Zihaal e miskin",
-    //     path: "13.mp3",
-    //     image: "images/image13.jpg",
-    //     singer: "Vishal mishra"
-    // },
-    // {
-    //     name: "Aaj ki raat",
-    //     path: "14.mp3",
-    //     image: "images/image14.jpeg",
-    //     singer: "Tamanna bhatiya"
-    // },
-    // {
-    //     name: "Baarish",
-    //     path: "15.mp3",
-    //     image: "images/image15.jpg",
-    //     singer: "Payal dev"
-    // },{
-    //     name: "Dekhne walo ne",
-    //     path: "16.mp3",
-    //     image: "images/image16.jpg",
-    //     singer: "Salman khan"
-    // },
-    // {
-    //     name: "Gali gali me",
-    //     path: "17.mp3",
-    //     image: "images/image17.jpg",
-    //     singer: "Neha kakkar"
-    // },
-    // {
-    //     name: "masroof hai dil",
-    //     path: "18.mp3",
-    //     image: "images/image18.jpeg",
-    //     singer: "Himesh reshammiya"
-    // },
-    // {
-    //     name: "Pahli pahli baar",
-    //     path: "19.mp3",
-    //     image: "images/image19.jpeg",
-    //     singer: "Kumar sanu"
-    // },
-    // {
-    //     name: "Zarori tha",
-    //     path: "20.mp3",
-    //     image: "images/image20.jpeg",
-    //     singer: "Rahat fateh"
+    {
+        name: "Nirdaiya marad",
+        path: "11.mp3",
+        image: "image11.jpg",
+        singer: "Shilpi raj"
+    },
+    {
+        name: "Lut gaye",
+        path: "12.mp3",
+        image: "image12.jpg",
+        singer: "Jubin noutalya"
+    },
+    {
+        name: "Zihaal e miskin",
+        path: "13.mp3",
+        image: "image13.jpg",
+        singer: "Vishal mishra"
+    },
+    {
+        name: "Aaj ki raat",
+        path: "14.mp3",
+        image: "image14.jpeg",
+        singer: "Tamanna bhatiya"
+    },
+    {
+        name: "Baarish",
+        path: "15.mp3",
+        image: "image15.jpg",
+        singer: "Payal dev"
+    },{
+        name: "Dekhne walo ne",
+        path: "16.mp3",
+        image: "image16.jpg",
+        singer: "Salman khan"
+    },
+    {
+        name: "Gali gali me",
+        path: "17.mp3",
+        image: "image17.jpg",
+        singer: "Neha kakkar"
+    },
+    {
+        name: "masroof hai dil",
+        path: "18.mp3",
+        image: "image18.jpeg",
+        singer: "Himesh reshammiya"
+    },
+    {
+        name: "Pahli pahli baar",
+        path: "19.mp3",
+        image: "image19.jpeg",
+        singer: "Kumar sanu"
+    },
+    {
+        name: "Zarori tha",
+        path: "20.mp3",
+        image: "image20.jpeg",
+        singer: "Rahat fateh"
     // },
     // {
     //     name: "Udanbaj rajau",
